@@ -96,10 +96,10 @@ public class Queen {
 
         System.out.println("Solução N°" + (contador + 1) + ":\n");
 
-        // Coluna
+        // Linha
         for (linha = 0; linha < tabuleiro.length; linha++) {
 
-            // Linha
+            // Coluna
             for (coluna = 0; coluna < tabuleiro.length; coluna++) {
 
                 //Rainha(Q) que está na coluna "j", está na linha "i".
