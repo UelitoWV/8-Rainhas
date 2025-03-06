@@ -94,7 +94,7 @@ public class Queen {
 
         int linha,coluna;
 
-        System.out.println("Solução N°" + (contador + 1) + ":\n");
+        System.out.print("Solução N°" + (contador + 1) + ":\n");
 
         // Linha
         for (linha = 0; linha < tabuleiro.length; linha++) {
@@ -112,6 +112,8 @@ public class Queen {
             }
             System.out.println();
         }
+
+        System.out.println();
     }
 
     // Imprime a quantidade de soluções armazenadas.
